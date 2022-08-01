@@ -12,14 +12,58 @@
 <body>
   <header class="header">
     <div class="wrapper">
+        <div class="header__wrapper">
+          <div class="header__logo">
+          <a href="./" class="header__logo-link">
+            <img src="./img/svg/odigo-logo.svg" alt="Discover Amazing places in Japan" class="header__logo-pic">
+          </a>
+        </div>
 
-      <div class="header__logo">
-        <a href="./" class="header__logo-link">
-          <img src="./img/svg/odigo-logo.svg" alt="Discover Amazing places in Japan" class="header__logo-pic">
-        </a>
-      </div>
-
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#/" class="header__link">Articles</a>
+            </li>
+            <li class="header__item">
+              <a href="#/" class="header__link">Locations</a>
+            </li>
+            <li class="header__item">
+              <a href="#/" class="header__link">Videos</a>
+            </li>
+            <li class="header__item">
+              <a href="#/" class="header__link">Sign in</a>
+            </li>
+          </ul>
+        </nav>
+        </div>
     </div>
   </header>
+
+  <main class="main">
+    <section class="intro">
+      <div class="wrapper">
+        <h1 class="intro__title">
+          Discover Amazing places in Japan
+        </h1>
+        <p class="intro__subtitle">
+          Japan is a unique Asian island state with
+          a history of several tens of thousands of people.
+          This is a special world that has turned into a highly
+          developed heredity, preserved in ancient traditions.
+        </p>
+        <form class="search-form">
+          <fieldset class="search-form__wrap">
+            <p class="search-form__info">
+              <input type="text" name="User likes to do" class="search-form__field" placeholder="What would you like to do?">
+              <input type="text" name="User likes to go" class="search-form__field" placeholder="Where would you like to go?">
+              <button type="submit" class="search-form__submit">search</button>
+
+            </p>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+  </main>
 </body>
 </html>
