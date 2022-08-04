@@ -323,7 +323,7 @@
         display: grid;
         -ms-grid-columns: 1fr 55px 1fr 55px 1fr;
         grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 55px;
+        column-gap: 55px;
         padding: 0 100px;
     }
 
@@ -418,8 +418,8 @@
         display: grid;
         -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr;
         grid-template-columns: repeat(6, 1fr);
-        grid-column-gap: 10px;
-        grid-row-gap: 10px;
+        column-gap: 10px;
+        row-gap: 10px;
     }
 
     .places__card {
@@ -505,7 +505,7 @@
         display: grid;
         -ms-grid-columns: 1fr 108px 1fr;
         grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 108px;
+        column-gap: 108px;
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
@@ -564,8 +564,8 @@
         display: grid;
         -ms-grid-columns: 1fr 57px 1fr 57px 1fr 57px 1fr 57px 1fr 57px 1fr;
         grid-template-columns: repeat(6, 1fr);
-        grid-column-gap: 57px;
-        grid-row-gap: 57px;
+        column-gap: 57px;
+        row-gap: 57px;
     }
 
     .top__card {
@@ -587,23 +587,23 @@
     }
 
     .top__card-stats {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        position: absolute;
-        -webkit-box-pack: end;
-            -ms-flex-pack: end;
-                justify-content: flex-end;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        background: rgba(21, 24, 36, 0.6);
-        padding:16px 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(21, 24, 36, 0.6);
+    padding: 16px 25px;
     }
 
     .top__card-title {
@@ -743,7 +743,7 @@
         }
         .benefits__cards {
             padding: 0 15px;
-            grid-column-gap: 25px;
+            column-gap: 25px;
         }
         .benefits__title {
             padding: 55px 15px;
@@ -763,7 +763,7 @@
             height: 293px;
         }
         .tours__tour {
-            grid-column-gap: 35px;
+            column-gap: 35px;
         }
         .tour__info {
             padding-left: 0;
@@ -775,8 +775,8 @@
             margin-bottom: 15px;
         }
         .top__cards {
-            grid-column-gap: 25px;
-            grid-row-gap: 55px;
+            column-gap: 25px;
+            row-gap: 55px;
         }
         .top__card {
             -ms-grid-column-span: 3;
@@ -953,6 +953,7 @@
         .top__card {
             -ms-grid-column-span: 6;
             grid-column: span 6;
+            width: 290px;
         }
         .top__card-stats {
             width: 290px;
